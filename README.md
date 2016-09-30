@@ -1,4 +1,4 @@
-# br-tq1-demo-ios
+# TQ1 Demo
 
 This application should be used as the primary sample of integration with TQ1 and using either [TQG](https://sites.google.com/a/taqtile.com/documentacao-taqtile/tqg-documentation?pli=1) as geotrigger manager.
 
