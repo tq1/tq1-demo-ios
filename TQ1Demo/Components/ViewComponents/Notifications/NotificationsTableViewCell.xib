@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="NotificationsTableViewCell" rowHeight="70" id="d3p-hc-Q3k" customClass="NotificationsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d3p-hc-Q3k" id="Dab-vq-1uI">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x7L-D9-Fhz">
+                        <rect key="frame" x="8" y="30" width="271" height="35"/>
+                        <string key="text">Lorem ipsum dolor sit amet, duo doming platonem no. Ad duo summo saperet, has doctus regione eu, molestie scripserit his in. Nec ex error harum epicuri. Alii augue vivendum vis ut, cu movet tollit virtute sea.
+</string>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="24/08/2015 00:00 AM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6ef-j9-rV8">
+                        <rect key="frame" x="8" y="8" width="157.5" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="MIj-T3-KWm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6ef-j9-rV8" firstAttribute="leading" secondItem="Dab-vq-1uI" secondAttribute="leadingMargin" id="2Qu-Rt-YRj"/>
+                    <constraint firstItem="x7L-D9-Fhz" firstAttribute="trailing" secondItem="Dab-vq-1uI" secondAttribute="trailingMargin" id="Ejw-2V-2qY"/>
+                    <constraint firstItem="x7L-D9-Fhz" firstAttribute="top" secondItem="6ef-j9-rV8" secondAttribute="bottom" constant="2" id="GnK-mD-kBj"/>
+                    <constraint firstItem="x7L-D9-Fhz" firstAttribute="leading" secondItem="Dab-vq-1uI" secondAttribute="leadingMargin" id="gLF-v5-b9g"/>
+                    <constraint firstItem="6ef-j9-rV8" firstAttribute="top" secondItem="Dab-vq-1uI" secondAttribute="topMargin" id="wl8-8t-DgZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblAlert" destination="x7L-D9-Fhz" id="Dec-Gs-oY8"/>
+                <outlet property="lblTime" destination="6ef-j9-rV8" id="zeW-12-S7u"/>
+            </connections>
+            <point key="canvasLocation" x="-518" y="-118"/>
+        </tableViewCell>
+    </objects>
+</document>

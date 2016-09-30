@@ -1,0 +1,1007 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FD4405AAE7A8B0C671EE836 /* Pods_TQ1Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02F3984E32BD930BC39E124 /* Pods_TQ1Demo.framework */; };
+		4D1EC8521B8672AF00A90937 /* TQ1DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1EC8511B8672AF00A90937 /* TQ1DemoTests.m */; };
+		4D290A3B1CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D290A381CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig */; };
+		4D290A3C1CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D290A391CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig */; };
+		4D290A3D1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D290A3A1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig */; };
+		4D4C26061BA8AD13007BBC67 /* FencesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26051BA8AD13007BBC67 /* FencesTableViewController.m */; };
+		4D4C26091BA8AD20007BBC67 /* EventsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26081BA8AD20007BBC67 /* EventsTableViewController.m */; };
+		4D4C260C1BA8AD5A007BBC67 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C260B1BA8AD5A007BBC67 /* SettingsTableViewController.m */; };
+		4D4C260F1BA8B551007BBC67 /* RemoveCustomDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C260E1BA8B551007BBC67 /* RemoveCustomDataTableViewController.m */; };
+		4D4C26121BA8B560007BBC67 /* AddCustomDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26111BA8B560007BBC67 /* AddCustomDataTableViewController.m */; };
+		4D4C26151BA8B585007BBC67 /* CustomDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26141BA8B585007BBC67 /* CustomDataTableViewController.m */; };
+		4D4C26181BA8B637007BBC67 /* ContentWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26171BA8B637007BBC67 /* ContentWebViewController.m */; };
+		4D4C261B1BA8B643007BBC67 /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C261A1BA8B643007BBC67 /* ContentViewController.m */; };
+		4D4C26201BA8B677007BBC67 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C261F1BA8B677007BBC67 /* HomeViewController.m */; };
+		4D4C26241BA8B6F7007BBC67 /* NotificationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26231BA8B6F7007BBC67 /* NotificationDetailViewController.m */; };
+		4D4C26271BA8B702007BBC67 /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26261BA8B702007BBC67 /* NotificationsViewController.m */; };
+		4D4C26291BA8B765007BBC67 /* ChacaraStoAntonio.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C26281BA8B765007BBC67 /* ChacaraStoAntonio.gpx */; };
+		4D4C262B1BA8B77C007BBC67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C262A1BA8B77C007BBC67 /* Images.xcassets */; };
+		4D4C26301BA8B7A4007BBC67 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C262C1BA8B7A4007BBC67 /* LaunchScreen.xib */; };
+		4D4C26311BA8B7A4007BBC67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C262E1BA8B7A4007BBC67 /* Main.storyboard */; };
+		4D4C26381BA8B7E0007BBC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26351BA8B7E0007BBC67 /* main.m */; };
+		4D4C263B1BA8B806007BBC67 /* TQGManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C263A1BA8B806007BBC67 /* TQGManager.m */; };
+		4D4C263E1BA8B833007BBC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C263D1BA8B833007BBC67 /* AppDelegate.m */; };
+		4D4C26421BA8B864007BBC67 /* CustomDataKeyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4C26401BA8B864007BBC67 /* CustomDataKeyTableViewCell.m */; };
+		4D4C26431BA8B864007BBC67 /* CustomDataKeyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C26411BA8B864007BBC67 /* CustomDataKeyTableViewCell.xib */; };
+		4D4C26451BA8B890007BBC67 /* SettingsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4C26441BA8B890007BBC67 /* SettingsTableViewCell.xib */; };
+		4D8CD1561BA1F49900F10D25 /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8CD1551BA1F49900F10D25 /* SettingsTableViewCell.m */; };
+		4D93D5631BA327A400E13CA9 /* EventInputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93D5621BA327A400E13CA9 /* EventInputTableViewCell.m */; };
+		4D93D5651BA327BF00E13CA9 /* EventInputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D93D5641BA327BF00E13CA9 /* EventInputTableViewCell.xib */; };
+		4DD0E4551B8B68EC00FA426A /* NotificationsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD0E4541B8B68EC00FA426A /* NotificationsTableViewCell.m */; };
+		4DD0E4571B8B691E00FA426A /* NotificationsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD0E4561B8B691E00FA426A /* NotificationsTableViewCell.xib */; };
+		4DE4E81C1BF4FE810030EEDA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE4E81B1BF4FE810030EEDA /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D1EC84C1B8672AF00A90937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D1EC82A1B8672AF00A90937 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1EC8311B8672AF00A90937;
+			remoteInfo = TQ1Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014461F19640BFB91DB75532 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09EB8C56A81C15AD7ED2D63A /* Pods-TQ1Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQ1Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo.release.xcconfig"; sourceTree = "<group>"; };
+		4D1EC8321B8672AF00A90937 /* TQ1Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQ1Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EC84B1B8672AF00A90937 /* TQ1Demo.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TQ1Demo.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D1EC8501B8672AF00A90937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D1EC8511B8672AF00A90937 /* TQ1DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TQ1DemoTests.m; sourceTree = "<group>"; };
+		4D290A381CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-TQ1Demo.release-appstore.xcconfig"; path = "Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo.release-appstore.xcconfig"; sourceTree = "<group>"; };
+		4D290A391CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-TQ1Demo.release-production.xcconfig"; path = "Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo.release-production.xcconfig"; sourceTree = "<group>"; };
+		4D290A3A1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-TQ1Demo.release-staging.xcconfig"; path = "Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo.release-staging.xcconfig"; sourceTree = "<group>"; };
+		4D4C26041BA8AD13007BBC67 /* FencesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FencesTableViewController.h; path = Modules/Fences/FencesTableViewController.h; sourceTree = "<group>"; };
+		4D4C26051BA8AD13007BBC67 /* FencesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FencesTableViewController.m; path = Modules/Fences/FencesTableViewController.m; sourceTree = "<group>"; };
+		4D4C26071BA8AD20007BBC67 /* EventsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventsTableViewController.h; path = Modules/Events/EventsTableViewController.h; sourceTree = "<group>"; };
+		4D4C26081BA8AD20007BBC67 /* EventsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventsTableViewController.m; path = Modules/Events/EventsTableViewController.m; sourceTree = "<group>"; };
+		4D4C260A1BA8AD5A007BBC67 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTableViewController.h; path = Modules/Settings/SettingsTableViewController.h; sourceTree = "<group>"; };
+		4D4C260B1BA8AD5A007BBC67 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTableViewController.m; path = Modules/Settings/SettingsTableViewController.m; sourceTree = "<group>"; };
+		4D4C260D1BA8B551007BBC67 /* RemoveCustomDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RemoveCustomDataTableViewController.h; path = Modules/Custom/Remove/RemoveCustomDataTableViewController.h; sourceTree = "<group>"; };
+		4D4C260E1BA8B551007BBC67 /* RemoveCustomDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RemoveCustomDataTableViewController.m; path = Modules/Custom/Remove/RemoveCustomDataTableViewController.m; sourceTree = "<group>"; };
+		4D4C26101BA8B560007BBC67 /* AddCustomDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddCustomDataTableViewController.h; path = Modules/Custom/Add/AddCustomDataTableViewController.h; sourceTree = "<group>"; };
+		4D4C26111BA8B560007BBC67 /* AddCustomDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddCustomDataTableViewController.m; path = Modules/Custom/Add/AddCustomDataTableViewController.m; sourceTree = "<group>"; };
+		4D4C26131BA8B585007BBC67 /* CustomDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDataTableViewController.h; path = Modules/Custom/CustomDataTableViewController.h; sourceTree = "<group>"; };
+		4D4C26141BA8B585007BBC67 /* CustomDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomDataTableViewController.m; path = Modules/Custom/CustomDataTableViewController.m; sourceTree = "<group>"; };
+		4D4C26161BA8B637007BBC67 /* ContentWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentWebViewController.h; path = Modules/Content/Web/ContentWebViewController.h; sourceTree = "<group>"; };
+		4D4C26171BA8B637007BBC67 /* ContentWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentWebViewController.m; path = Modules/Content/Web/ContentWebViewController.m; sourceTree = "<group>"; };
+		4D4C26191BA8B643007BBC67 /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContentViewController.h; path = Modules/Content/ContentViewController.h; sourceTree = "<group>"; };
+		4D4C261A1BA8B643007BBC67 /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContentViewController.m; path = Modules/Content/ContentViewController.m; sourceTree = "<group>"; };
+		4D4C261E1BA8B677007BBC67 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Modules/Home/HomeViewController.h; sourceTree = "<group>"; };
+		4D4C261F1BA8B677007BBC67 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Modules/Home/HomeViewController.m; sourceTree = "<group>"; };
+		4D4C26221BA8B6F7007BBC67 /* NotificationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationDetailViewController.h; path = Modules/Notifications/Detail/NotificationDetailViewController.h; sourceTree = "<group>"; };
+		4D4C26231BA8B6F7007BBC67 /* NotificationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationDetailViewController.m; path = Modules/Notifications/Detail/NotificationDetailViewController.m; sourceTree = "<group>"; };
+		4D4C26251BA8B702007BBC67 /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsViewController.h; path = Modules/Notifications/NotificationsViewController.h; sourceTree = "<group>"; };
+		4D4C26261BA8B702007BBC67 /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsViewController.m; path = Modules/Notifications/NotificationsViewController.m; sourceTree = "<group>"; };
+		4D4C26281BA8B765007BBC67 /* ChacaraStoAntonio.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = ChacaraStoAntonio.gpx; path = Resources/ChacaraStoAntonio.gpx; sourceTree = "<group>"; };
+		4D4C262A1BA8B77C007BBC67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Resources/Images.xcassets; sourceTree = "<group>"; };
+		4D4C262D1BA8B7A4007BBC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Resources/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D4C262F1BA8B7A4007BBC67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Resources/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D4C26321BA8B7E0007BBC67 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = "Supporting Files/Constants.h"; sourceTree = "<group>"; };
+		4D4C26351BA8B7E0007BBC67 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
+		4D4C26391BA8B806007BBC67 /* TQGManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TQGManager.h; path = Models/TQGManager.h; sourceTree = "<group>"; };
+		4D4C263A1BA8B806007BBC67 /* TQGManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TQGManager.m; path = Models/TQGManager.m; sourceTree = "<group>"; };
+		4D4C263C1BA8B833007BBC67 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = App/AppDelegate.h; sourceTree = "<group>"; };
+		4D4C263D1BA8B833007BBC67 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = App/AppDelegate.m; sourceTree = "<group>"; };
+		4D4C263F1BA8B864007BBC67 /* CustomDataKeyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDataKeyTableViewCell.h; path = Components/ViewComponents/Custom/CustomDataKeyTableViewCell.h; sourceTree = "<group>"; };
+		4D4C26401BA8B864007BBC67 /* CustomDataKeyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomDataKeyTableViewCell.m; path = Components/ViewComponents/Custom/CustomDataKeyTableViewCell.m; sourceTree = "<group>"; };
+		4D4C26411BA8B864007BBC67 /* CustomDataKeyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomDataKeyTableViewCell.xib; path = Components/ViewComponents/Custom/CustomDataKeyTableViewCell.xib; sourceTree = "<group>"; };
+		4D4C26441BA8B890007BBC67 /* SettingsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsTableViewCell.xib; path = Components/ViewComponents/Settings/SettingsTableViewCell.xib; sourceTree = "<group>"; };
+		4D8CD1541BA1F49900F10D25 /* SettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsTableViewCell.h; path = Components/ViewComponents/Settings/SettingsTableViewCell.h; sourceTree = "<group>"; };
+		4D8CD1551BA1F49900F10D25 /* SettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsTableViewCell.m; path = Components/ViewComponents/Settings/SettingsTableViewCell.m; sourceTree = "<group>"; };
+		4D93D5611BA327A400E13CA9 /* EventInputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventInputTableViewCell.h; path = Components/ViewComponents/Events/EventInputTableViewCell.h; sourceTree = "<group>"; };
+		4D93D5621BA327A400E13CA9 /* EventInputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventInputTableViewCell.m; path = Components/ViewComponents/Events/EventInputTableViewCell.m; sourceTree = "<group>"; };
+		4D93D5641BA327BF00E13CA9 /* EventInputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EventInputTableViewCell.xib; path = Components/ViewComponents/Events/EventInputTableViewCell.xib; sourceTree = "<group>"; };
+		4DB56D561BB4170D005D9F10 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		4DD0E4531B8B68EC00FA426A /* NotificationsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationsTableViewCell.h; path = Components/ViewComponents/Notifications/NotificationsTableViewCell.h; sourceTree = "<group>"; };
+		4DD0E4541B8B68EC00FA426A /* NotificationsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationsTableViewCell.m; path = Components/ViewComponents/Notifications/NotificationsTableViewCell.m; sourceTree = "<group>"; };
+		4DD0E4561B8B691E00FA426A /* NotificationsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NotificationsTableViewCell.xib; path = Components/ViewComponents/Notifications/NotificationsTableViewCell.xib; sourceTree = "<group>"; };
+		4DE4E81B1BF4FE810030EEDA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4DF702301BBF126600908460 /* FMDBSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FMDBSwift.framework; path = "Pods/../build/Debug-iphoneos/FMDBSwift.framework"; sourceTree = "<group>"; };
+		4DF702321BBF127000908460 /* TQGeolocationSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TQGeolocationSDK.framework; path = "Pods/../build/Debug-iphoneos/TQGeolocationSDK.framework"; sourceTree = "<group>"; };
+		4DF702341BBF127400908460 /* SimulatorRemoteNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SimulatorRemoteNotifications.framework; path = "Pods/../build/Debug-iphoneos/SimulatorRemoteNotifications.framework"; sourceTree = "<group>"; };
+		5344C3DD657B4B8FF5C8D4D9 /* Pods-TQ1Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQ1Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D02F3984E32BD930BC39E124 /* Pods_TQ1Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQ1Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D1EC82F1B8672AF00A90937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE4E81C1BF4FE810030EEDA /* MapKit.framework in Frameworks */,
+				0FD4405AAE7A8B0C671EE836 /* Pods_TQ1Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EC8481B8672AF00A90937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C45B213E89FBEC5EEB6DF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE4E81B1BF4FE810030EEDA /* MapKit.framework */,
+				4DF702341BBF127400908460 /* SimulatorRemoteNotifications.framework */,
+				4DF702321BBF127000908460 /* TQGeolocationSDK.framework */,
+				4DF702301BBF126600908460 /* FMDBSwift.framework */,
+				014461F19640BFB91DB75532 /* Pods.framework */,
+				D02F3984E32BD930BC39E124 /* Pods_TQ1Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2185B0914CE76D972B1D089B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D290A381CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig */,
+				4D290A391CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig */,
+				4D290A3A1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig */,
+				5344C3DD657B4B8FF5C8D4D9 /* Pods-TQ1Demo.debug.xcconfig */,
+				09EB8C56A81C15AD7ED2D63A /* Pods-TQ1Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D1601A91B8FB523001E64E1 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26191BA8B643007BBC67 /* ContentViewController.h */,
+				4D4C261A1BA8B643007BBC67 /* ContentViewController.m */,
+				4D8CD14B1BA1D7B400F10D25 /* Web */,
+			);
+			name = Content;
+			sourceTree = "<group>";
+		};
+		4D1EC8291B8672AF00A90937 = {
+			isa = PBXGroup;
+			children = (
+				4D1EC8341B8672AF00A90937 /* TQ1Demo */,
+				4D1EC84E1B8672AF00A90937 /* TQ1DemoTests */,
+				4D1EC8331B8672AF00A90937 /* Products */,
+				0C45B213E89FBEC5EEB6DF53 /* Frameworks */,
+				2185B0914CE76D972B1D089B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4D1EC8331B8672AF00A90937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EC8321B8672AF00A90937 /* TQ1Demo.app */,
+				4D1EC84B1B8672AF00A90937 /* TQ1Demo.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D1EC8341B8672AF00A90937 /* TQ1Demo */ = {
+			isa = PBXGroup;
+			children = (
+				4D44942B1B8CE776004332E2 /* App */,
+				4D2AF93B1B87479E00D69B1E /* Components */,
+				4D44942C1B8CE7B2004332E2 /* Models */,
+				4D44942D1B8CE7C2004332E2 /* Modules */,
+				4D2E60641B8CE91C00D713EA /* Resources */,
+				4D1EC8351B8672AF00A90937 /* Supporting Files */,
+			);
+			path = TQ1Demo;
+			sourceTree = "<group>";
+		};
+		4D1EC8351B8672AF00A90937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB56D561BB4170D005D9F10 /* Info.plist */,
+				4D4C26321BA8B7E0007BBC67 /* Constants.h */,
+				4D4C26351BA8B7E0007BBC67 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D1EC84E1B8672AF00A90937 /* TQ1DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EC8511B8672AF00A90937 /* TQ1DemoTests.m */,
+				4D1EC84F1B8672AF00A90937 /* Supporting Files */,
+			);
+			path = TQ1DemoTests;
+			sourceTree = "<group>";
+		};
+		4D1EC84F1B8672AF00A90937 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D1EC8501B8672AF00A90937 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D2AF93B1B87479E00D69B1E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D2AF9431B87492B00D69B1E /* ViewComponents */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		4D2AF9431B87492B00D69B1E /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				4D93D5601BA3278600E13CA9 /* Events */,
+				4D8CD1531BA1F41100F10D25 /* Settings */,
+				4D84D4481BA071C500550931 /* Custom */,
+				4DD0E44F1B8B688700FA426A /* Notifications */,
+			);
+			name = ViewComponents;
+			sourceTree = "<group>";
+		};
+		4D2E60641B8CE91C00D713EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C262C1BA8B7A4007BBC67 /* LaunchScreen.xib */,
+				4D4C262E1BA8B7A4007BBC67 /* Main.storyboard */,
+				4D4C262A1BA8B77C007BBC67 /* Images.xcassets */,
+				4D4C26281BA8B765007BBC67 /* ChacaraStoAntonio.gpx */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4D44942B1B8CE776004332E2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C263C1BA8B833007BBC67 /* AppDelegate.h */,
+				4D4C263D1BA8B833007BBC67 /* AppDelegate.m */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		4D44942C1B8CE7B2004332E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26391BA8B806007BBC67 /* TQGManager.h */,
+				4D4C263A1BA8B806007BBC67 /* TQGManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4D44942D1B8CE7C2004332E2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4D93D5661BA3426700E13CA9 /* Fences */,
+				4D93D55C1BA324D100E13CA9 /* Events */,
+				4D8CD14F1BA1F3C500F10D25 /* Settings */,
+				4D84D43B1BA06FF100550931 /* Custom */,
+				4D1601A91B8FB523001E64E1 /* Content */,
+				4D44942E1B8CE7E3004332E2 /* Home */,
+				4D44942F1B8CE82D004332E2 /* Notifications */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		4D44942E1B8CE7E3004332E2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C261E1BA8B677007BBC67 /* HomeViewController.h */,
+				4D4C261F1BA8B677007BBC67 /* HomeViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		4D44942F1B8CE82D004332E2 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26251BA8B702007BBC67 /* NotificationsViewController.h */,
+				4D4C26261BA8B702007BBC67 /* NotificationsViewController.m */,
+				4D4C26211BA8B6A3007BBC67 /* Detail */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		4D4C26211BA8B6A3007BBC67 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26221BA8B6F7007BBC67 /* NotificationDetailViewController.h */,
+				4D4C26231BA8B6F7007BBC67 /* NotificationDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		4D84D43B1BA06FF100550931 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26131BA8B585007BBC67 /* CustomDataTableViewController.h */,
+				4D4C26141BA8B585007BBC67 /* CustomDataTableViewController.m */,
+				4D84D4431BA070D000550931 /* Remove */,
+				4D84D43F1BA0708700550931 /* Add */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		4D84D43F1BA0708700550931 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26101BA8B560007BBC67 /* AddCustomDataTableViewController.h */,
+				4D4C26111BA8B560007BBC67 /* AddCustomDataTableViewController.m */,
+			);
+			name = Add;
+			sourceTree = "<group>";
+		};
+		4D84D4431BA070D000550931 /* Remove */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C260D1BA8B551007BBC67 /* RemoveCustomDataTableViewController.h */,
+				4D4C260E1BA8B551007BBC67 /* RemoveCustomDataTableViewController.m */,
+			);
+			name = Remove;
+			sourceTree = "<group>";
+		};
+		4D84D4481BA071C500550931 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C263F1BA8B864007BBC67 /* CustomDataKeyTableViewCell.h */,
+				4D4C26401BA8B864007BBC67 /* CustomDataKeyTableViewCell.m */,
+				4D4C26411BA8B864007BBC67 /* CustomDataKeyTableViewCell.xib */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		4D8CD14B1BA1D7B400F10D25 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26161BA8B637007BBC67 /* ContentWebViewController.h */,
+				4D4C26171BA8B637007BBC67 /* ContentWebViewController.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		4D8CD14F1BA1F3C500F10D25 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C260A1BA8AD5A007BBC67 /* SettingsTableViewController.h */,
+				4D4C260B1BA8AD5A007BBC67 /* SettingsTableViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4D8CD1531BA1F41100F10D25 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26441BA8B890007BBC67 /* SettingsTableViewCell.xib */,
+				4D8CD1541BA1F49900F10D25 /* SettingsTableViewCell.h */,
+				4D8CD1551BA1F49900F10D25 /* SettingsTableViewCell.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		4D93D55C1BA324D100E13CA9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26071BA8AD20007BBC67 /* EventsTableViewController.h */,
+				4D4C26081BA8AD20007BBC67 /* EventsTableViewController.m */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		4D93D5601BA3278600E13CA9 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				4D93D5611BA327A400E13CA9 /* EventInputTableViewCell.h */,
+				4D93D5621BA327A400E13CA9 /* EventInputTableViewCell.m */,
+				4D93D5641BA327BF00E13CA9 /* EventInputTableViewCell.xib */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		4D93D5661BA3426700E13CA9 /* Fences */ = {
+			isa = PBXGroup;
+			children = (
+				4D4C26041BA8AD13007BBC67 /* FencesTableViewController.h */,
+				4D4C26051BA8AD13007BBC67 /* FencesTableViewController.m */,
+			);
+			name = Fences;
+			sourceTree = "<group>";
+		};
+		4DD0E44F1B8B688700FA426A /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				4DD0E4531B8B68EC00FA426A /* NotificationsTableViewCell.h */,
+				4DD0E4541B8B68EC00FA426A /* NotificationsTableViewCell.m */,
+				4DD0E4561B8B691E00FA426A /* NotificationsTableViewCell.xib */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D1EC8311B8672AF00A90937 /* TQ1Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EC8551B8672AF00A90937 /* Build configuration list for PBXNativeTarget "TQ1Demo" */;
+			buildPhases = (
+				660BD0E40778C86CB83D45D8 /* Check Pods Manifest.lock */,
+				4D1EC82E1B8672AF00A90937 /* Sources */,
+				4D1EC82F1B8672AF00A90937 /* Frameworks */,
+				4D1EC8301B8672AF00A90937 /* Resources */,
+				EF49196A5FE0FF1BEB3455DE /* Embed Pods Frameworks */,
+				B3334080E61237DD11F0F29B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TQ1Demo;
+			productName = TQ1Demo;
+			productReference = 4D1EC8321B8672AF00A90937 /* TQ1Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D1EC84A1B8672AF00A90937 /* TQ1DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D1EC8581B8672AF00A90937 /* Build configuration list for PBXNativeTarget "TQ1DemoTests" */;
+			buildPhases = (
+				4D1EC8471B8672AF00A90937 /* Sources */,
+				4D1EC8481B8672AF00A90937 /* Frameworks */,
+				4D1EC8491B8672AF00A90937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D1EC84D1B8672AF00A90937 /* PBXTargetDependency */,
+			);
+			name = TQ1DemoTests;
+			productName = TQ1DemoTests;
+			productReference = 4D1EC84B1B8672AF00A90937 /* TQ1Demo.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D1EC82A1B8672AF00A90937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Taqtile Apps";
+				TargetAttributes = {
+					4D1EC8311B8672AF00A90937 = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4D1EC84A1B8672AF00A90937 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4D1EC8311B8672AF00A90937;
+					};
+				};
+			};
+			buildConfigurationList = 4D1EC82D1B8672AF00A90937 /* Build configuration list for PBXProject "TQ1Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D1EC8291B8672AF00A90937;
+			productRefGroup = 4D1EC8331B8672AF00A90937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1EC8311B8672AF00A90937 /* TQ1Demo */,
+				4D1EC84A1B8672AF00A90937 /* TQ1DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D1EC8301B8672AF00A90937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D290A3D1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig in Resources */,
+				4D290A3C1CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig in Resources */,
+				4D4C26431BA8B864007BBC67 /* CustomDataKeyTableViewCell.xib in Resources */,
+				4D4C262B1BA8B77C007BBC67 /* Images.xcassets in Resources */,
+				4D4C26451BA8B890007BBC67 /* SettingsTableViewCell.xib in Resources */,
+				4D93D5651BA327BF00E13CA9 /* EventInputTableViewCell.xib in Resources */,
+				4D290A3B1CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig in Resources */,
+				4D4C26311BA8B7A4007BBC67 /* Main.storyboard in Resources */,
+				4D4C26301BA8B7A4007BBC67 /* LaunchScreen.xib in Resources */,
+				4D4C26291BA8B765007BBC67 /* ChacaraStoAntonio.gpx in Resources */,
+				4DD0E4571B8B691E00FA426A /* NotificationsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EC8491B8672AF00A90937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		660BD0E40778C86CB83D45D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3334080E61237DD11F0F29B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF49196A5FE0FF1BEB3455DE /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TQ1Demo/Pods-TQ1Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D1EC82E1B8672AF00A90937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4C26421BA8B864007BBC67 /* CustomDataKeyTableViewCell.m in Sources */,
+				4D4C263E1BA8B833007BBC67 /* AppDelegate.m in Sources */,
+				4D4C26241BA8B6F7007BBC67 /* NotificationDetailViewController.m in Sources */,
+				4D4C26091BA8AD20007BBC67 /* EventsTableViewController.m in Sources */,
+				4D4C260F1BA8B551007BBC67 /* RemoveCustomDataTableViewController.m in Sources */,
+				4D4C26271BA8B702007BBC67 /* NotificationsViewController.m in Sources */,
+				4D4C263B1BA8B806007BBC67 /* TQGManager.m in Sources */,
+				4D4C26151BA8B585007BBC67 /* CustomDataTableViewController.m in Sources */,
+				4D4C26121BA8B560007BBC67 /* AddCustomDataTableViewController.m in Sources */,
+				4DD0E4551B8B68EC00FA426A /* NotificationsTableViewCell.m in Sources */,
+				4D4C26381BA8B7E0007BBC67 /* main.m in Sources */,
+				4D93D5631BA327A400E13CA9 /* EventInputTableViewCell.m in Sources */,
+				4D8CD1561BA1F49900F10D25 /* SettingsTableViewCell.m in Sources */,
+				4D4C261B1BA8B643007BBC67 /* ContentViewController.m in Sources */,
+				4D4C260C1BA8AD5A007BBC67 /* SettingsTableViewController.m in Sources */,
+				4D4C26061BA8AD13007BBC67 /* FencesTableViewController.m in Sources */,
+				4D4C26201BA8B677007BBC67 /* HomeViewController.m in Sources */,
+				4D4C26181BA8B637007BBC67 /* ContentWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D1EC8471B8672AF00A90937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D1EC8521B8672AF00A90937 /* TQ1DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D1EC84D1B8672AF00A90937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D1EC8311B8672AF00A90937 /* TQ1Demo */;
+			targetProxy = 4D1EC84C1B8672AF00A90937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D4C262C1BA8B7A4007BBC67 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4C262D1BA8B7A4007BBC67 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		4D4C262E1BA8B7A4007BBC67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4C262F1BA8B7A4007BBC67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D1EC8531B8672AF00A90937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"ENV_DEVELOPMENT=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D1EC8541B8672AF00A90937 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "ENV_PRODUCTION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Production";
+		};
+		4D1EC8561B8672AF00A90937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5344C3DD657B4B8FF5C8D4D9 /* Pods-TQ1Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "TQ1Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) '@executable_path/Frameworks'";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taqtile.tq1demo.staging;
+				PRODUCT_NAME = TQ1Demo;
+				PROVISIONING_PROFILE = "$(sigh_com.taqtile.tq1demo.staging_development)";
+			};
+			name = Debug;
+		};
+		4D1EC8571B8672AF00A90937 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A391CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "TQ1Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taqtile.tq1demo;
+				PRODUCT_NAME = TQ1Demo;
+				PROVISIONING_PROFILE = "$(sigh_com.taqtile.tq1demo_adhoc)";
+			};
+			name = "Release-Production";
+		};
+		4D1EC8591B8672AF00A90937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5344C3DD657B4B8FF5C8D4D9 /* Pods-TQ1Demo.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TQ1DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taqtile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TQ1Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQ1Demo.app/TQ1Demo";
+			};
+			name = Debug;
+		};
+		4D1EC85A1B8672AF00A90937 /* Release-Production */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A391CE661A90090F026 /* Pods-TQ1Demo.release-production.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TQ1DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taqtile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TQ1Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQ1Demo.app/TQ1Demo";
+			};
+			name = "Release-Production";
+		};
+		4D290A321CE660D40090F026 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "ENV_PRODUCTION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Staging";
+		};
+		4D290A331CE660D40090F026 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A3A1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "TQ1Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taqtile.tq1demo.staging;
+				PRODUCT_NAME = TQ1Demo;
+				PROVISIONING_PROFILE = "$(sigh_com.taqtile.tq1demo.staging_adhoc)";
+			};
+			name = "Release-Staging";
+		};
+		4D290A341CE660D40090F026 /* Release-Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A3A1CE661A90090F026 /* Pods-TQ1Demo.release-staging.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TQ1DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taqtile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TQ1Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQ1Demo.app/TQ1Demo";
+			};
+			name = "Release-Staging";
+		};
+		4D290A351CE660DD0090F026 /* Release-AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "ENV_PRODUCTION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-AppStore";
+		};
+		4D290A361CE660DD0090F026 /* Release-AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A381CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = "TQ1Demo/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taqtile.tq1demo;
+				PRODUCT_NAME = TQ1Demo;
+				PROVISIONING_PROFILE = "$(sigh_com.taqtile.tq1demo_appstore)";
+			};
+			name = "Release-AppStore";
+		};
+		4D290A371CE660DD0090F026 /* Release-AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D290A381CE661A90090F026 /* Pods-TQ1Demo.release-appstore.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = TQ1DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taqtile.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = TQ1Demo;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TQ1Demo.app/TQ1Demo";
+			};
+			name = "Release-AppStore";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D1EC82D1B8672AF00A90937 /* Build configuration list for PBXProject "TQ1Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EC8531B8672AF00A90937 /* Debug */,
+				4D1EC8541B8672AF00A90937 /* Release-Production */,
+				4D290A351CE660DD0090F026 /* Release-AppStore */,
+				4D290A321CE660D40090F026 /* Release-Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+		4D1EC8551B8672AF00A90937 /* Build configuration list for PBXNativeTarget "TQ1Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EC8561B8672AF00A90937 /* Debug */,
+				4D1EC8571B8672AF00A90937 /* Release-Production */,
+				4D290A361CE660DD0090F026 /* Release-AppStore */,
+				4D290A331CE660D40090F026 /* Release-Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+		4D1EC8581B8672AF00A90937 /* Build configuration list for PBXNativeTarget "TQ1DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D1EC8591B8672AF00A90937 /* Debug */,
+				4D1EC85A1B8672AF00A90937 /* Release-Production */,
+				4D290A371CE660DD0090F026 /* Release-AppStore */,
+				4D290A341CE660D40090F026 /* Release-Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release-Production";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D1EC82A1B8672AF00A90937 /* Project object */;
+}
